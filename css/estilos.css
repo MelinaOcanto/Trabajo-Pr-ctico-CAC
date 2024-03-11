@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    background-color: rgb(241, 241, 241) ;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    
+}
+
+h2{
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+}
+
+h3{
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.titulos{
+    color: rgb(57, 55, 55)
+}
+
+.otrasRece{
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    font-size: larger;
+    font-family: "Raleway", sans-serif;
+    
+    
+}
+
+.nav{
+    display: flex;
+}
+nav ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+
+}
+
+a:hover{
+    color: rgb(124, 123, 123);
+    text-decoration: underline;
+    
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+.imagenCham{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border-radius: 50%;
+}
+ 
+.receta{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ingredientes{ 
+    text-align: justify ;
+    width: 400px;
+    margin: 50px;
+    font-family: "Raleway";
+    box-shadow: 5px 8px 30px 5px rgb(174, 173, 173);
+}
+
+.procedimiento{
+    width: 400px;
+    font-family: "Raleway";
+    margin: 50px;
+    box-shadow: 5px 8px 30px 5px rgb(174, 173, 173);
+}
+
+
+.ingredientes p{
+    margin: 20px;
+}
+
+.procedimiento p{
+    margin: 20px;
+}
+
+ul li{
+    text-align: justify;
+}
+ol li{
+    margin-right: 20px;
+    text-align: justify;
+}
+
+
+
+.videos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    
+}
+
+
+footer{
+    display: flex;
+    background-color: rgb(184, 181, 181);
+    color: white;
+    font-size: 18px;
+    margin: 0 auto;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ancla{
+    width: 300px;
+}
+
+.codo{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(184, 181, 181);
+    margin: 0;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+
+}
+
+
+
+.tituloForm{
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+
+form{
+    padding: 50px;
+    font-family: "Raleway", sans-serif;
+}
+
+.centrarBot{
+    display: flex;
+    justify-content: center;
+}
+
+.botónVolver{
+    display: inline-block;
+    justify-content: center;
+    padding: 10px;
+    background-color: green; 
+    border-radius: 10px;
+    color: white; 
+    border: none; 
+    font-family: "Raleway", sans-serif;
+};
+table{
+    font-family: "Raleway", sans-serif;
+}
+
+
