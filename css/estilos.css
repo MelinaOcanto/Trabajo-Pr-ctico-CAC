@@ -17,6 +17,7 @@ h1, h2, h3{
 h1{
     font-size: 40px;
     font-family: "Raleway", sans-serif;
+    padding-top: 40px;
     
 }
 
@@ -47,6 +48,11 @@ nav{
     font-family: "Raleway", sans-serif;
     
     
+    
+}
+
+.nav-item a{
+    text-align: center;
 }
 
 .nav{
